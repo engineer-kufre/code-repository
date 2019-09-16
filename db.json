@@ -1,0 +1,22 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "firstname": "Mike",
+            "username": "me",
+            "password": "12345"
+        },
+        {
+            "id": 2,
+            "firstname": "Dan",
+            "username": "you",
+            "password": "123455"
+        }
+    ],
+    "post": [
+        {
+
+        }
+    ],
+    "comment":
+}
