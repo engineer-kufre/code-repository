@@ -100,3 +100,23 @@ ul.pages li a:hover {
 }
 
 div.center {text-align: center;}
+
+.main {
+    border: 1px solid rgb(2, 2, 70);
+    margin: 10px 20px 10px 20px;
+    height: 1000px;
+    border-radius: 1em;
+}
+.articles {
+    padding: .5em;
+}
+.myfooter {
+    background-color: rgb(2, 2, 70);
+    color: white;
+    text-align: center;
+    padding-top: 2em;
+}
+.contacts {
+    position: relative;
+    width: 100%;
+}
