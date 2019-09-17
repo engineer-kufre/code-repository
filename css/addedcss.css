@@ -15,7 +15,7 @@
     border-radius: .5em;
     color: white;
     background-color: rgb(2, 2, 70);
-    /* margin-top: -7.7em; */
+    margin-top: -7.7em;
 }
 .topnav {
     overflow: hidden;
@@ -123,9 +123,36 @@ div.center {text-align: center;}
     background-color: rgb(2, 2, 70);
     color: white;
     text-align: center;
-    padding-top: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 .contacts {
     position: relative;
     width: 100%;
+}
+.name {
+    margin-top: 200px;
+    text-align: center;
+    color: rgb(2, 2, 70);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.login_form {
+    margin: 0 auto;
+    width: 180px;
+}
+#mybutton{
+    border-radius: 5px;
+    background-color: rgb(134, 134, 156);
+    border: none;
+    color: rgb(2, 2, 70);
+    margin-left: 50px;
+}
+
+#mybutton:hover {
+    background-color: rgb(2, 2, 70);
+    padding-right: 5px;
+    color: white;
+}
+#myfooter {
+    margin-top: 280px;
 }
