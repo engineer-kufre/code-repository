@@ -12,8 +12,10 @@ $(document).ready(function() {
                 text,
             },
             success: function() {
-                $('submitsuccess').html('Article Posted');
-            }
+                $('.submitsuccess').html('Article Posted');
+                $('#articleform').trigger('reset');
+            },
+            
         });
     });
 });

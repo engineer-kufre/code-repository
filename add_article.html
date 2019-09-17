@@ -10,13 +10,17 @@
 </head>
 <body style="margin-left: 2em; margin-top: 2em;">
     <h2>New Article</h2>
-    <p>Title:</p>
-    <input type="text" name="title" id="title" placeholder="Title"> <br>
-    <p>Date:</p>
-    <input type="text" name="date" id="date" placeholder="dd-mm-yyyy"> <br>
-    <p>Article Text:</p>
-    <textarea name="text" id="" cols="100" rows="30" placeholder="Enter Article Text"></textarea>
-    <button class="newArticleBtn" type="submit">Submit</button>
-    <p class="submitsuccess"></p>
+    <form id="articleform">
+        <p>Title:</p>
+        <input type="text" name="title" id="title" placeholder="Title"> <br>
+        <p>Date:</p>
+        <input type="text" name="date" id="date" placeholder="dd-mm-yyyy"> <br>
+        <p>Article Text:</p>
+        <textarea name="text" id="text" cols="100" rows="10" placeholder="Enter Article Text"></textarea>
+        <button class="newArticleBtn" type="submit">Submit</button>
+        <p class="submitsuccess"></p>
+    </form>
+    <script src="./js/jquery.js"></script>
+    <script src="./js/articles.js"></script>
 </body>
 </html>
