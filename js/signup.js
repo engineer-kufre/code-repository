@@ -5,7 +5,7 @@ $(document).ready(function() {
         const password = $('#password').val();
         const email = $('#email').val();
         if (!fullname || !username || !password || !email) {
-            $('.message').html('Please fill in missing details');
+            $('.signInSuccess').html('Please fill in missing details');
             return;
           }
           $.ajax({
@@ -16,7 +16,7 @@ $(document).ready(function() {
             },
             success: function(response) {
               if (response.length) {
-                $('.message').html('User already exist');
+                $('.signInSuccess').html('User already exist');
               } else {
                 $.ajax({
                   method: 'POST',
@@ -28,7 +28,7 @@ $(document).ready(function() {
                     password,
                   },
                   success: function() {
-                    $('.message').html('Success!!!');
+                    $('.signInSuccess').html('Success!!!');
                   },
                 });
               }
