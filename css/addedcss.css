@@ -92,6 +92,7 @@ ul.pages li a {
     text-decoration: none;
     transition: background-color .3s;
     border: 1px solid #ddd;
+    border-radius: 16px;
 }
 
 ul.pages li a:hover {
@@ -104,11 +105,12 @@ div.center {text-align: center;}
 .main {
     border: 1px solid rgb(2, 2, 70);
     margin: 10px 20px 10px 20px;
-    height: 1000px;
+    height: 370px;
     border-radius: 1em;
+    overflow: auto;
 }
 .articles {
-    padding: .5em;
+    padding: 1em 2em 1em 2em;
 }
 .myfooter {
     background-color: rgb(2, 2, 70);
@@ -119,4 +121,7 @@ div.center {text-align: center;}
 .contacts {
     position: relative;
     width: 100%;
+}
+.combine {
+    position: relative;
 }
