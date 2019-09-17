@@ -1,14 +1,21 @@
+@media screen and (max-width: 600px){
+.combine {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}    
+}
 .logoheader {
     text-align: right;
     border: 1px solid rgb(2, 2, 70);
     padding: 1.2em;
     padding-left: 2em;
-    width: 75%;
+    max-width: 75%;
     margin: auto;
     border-radius: .5em;
     color: white;
     background-color: rgb(2, 2, 70);
-    margin-top: -7.7em;
+    /* margin-top: -7.7em; */
 }
 .topnav {
     overflow: hidden;
@@ -121,7 +128,4 @@ div.center {text-align: center;}
 .contacts {
     position: relative;
     width: 100%;
-}
-.combine {
-    position: relative;
 }
