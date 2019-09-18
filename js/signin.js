@@ -1,14 +1,18 @@
 $(document).ready(function() {
+
     $('.signinbutton').click(function() {
         var usernameSI = $('#usernameSI').val();
         var passwordSI = $('#passwordSI').val();
         $.ajax({
             method: 'GET',
             url: `http://localhost:3000/users?email=${usernameSI}&password=${passwordSI}`,
+
+
             data: {
                 username: usernameSI,
                 password: passwordSI,
             },
+
             success: function(response) {
                 if (response.length) {
                     $('.signInSuccess').html('Success!!!');
