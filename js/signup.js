@@ -1,5 +1,6 @@
 $(document).ready(function() {
-    $('signupSubBtn').click(function() {
+    $('.signupSubBtn').click(function(event) {
+        event.preventDefault();
         const fullname = $('#fullname').val();
         const username = $('#username').val();
         const password = $('#password').val();
@@ -33,6 +34,6 @@ $(document).ready(function() {
                 });
               }
             },
-          });
+        });
     });
 });
