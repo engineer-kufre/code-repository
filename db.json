@@ -5,8 +5,18 @@
   "users": [
       {
         "id": 1,
-        "username": "Me",
+        "username": "M",
         "password": "abcd"
+      },
+      {
+        "id": 2,
+        "username": "Me",
+        "password": "abcde"
+      },
+      {
+        "id": 3,
+        "username": "Men",
+        "password": "abcden"
       }
   ]
 }
