@@ -1,12 +1,5 @@
 {
   "articles": [
 
-  ],
-  "users": [
-      {
-        "id": 1,
-        "username": "Me",
-        "password": "abcd"
-      }
   ]
 }
